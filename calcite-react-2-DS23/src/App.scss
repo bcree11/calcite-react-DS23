@@ -1,0 +1,30 @@
+#root {
+  margin: 0 auto;
+}
+
+.App {
+  background: var(--calcite-ui-background);
+  min-height: 100vh;
+  color: var(--calcite-ui-text-1);
+}
+
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    color: var(--calcite-ui-text-2);
+    border-bottom: 1px var(--calcite-ui-border-1) dotted;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 0 20px 20px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: var(--calcite-ui-text-link);
+    text-decoration: none;
+  }
+}
