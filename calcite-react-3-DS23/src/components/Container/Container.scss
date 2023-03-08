@@ -1,0 +1,15 @@
+.app-container {
+  max-width: 1280px;
+  padding: 2rem;
+  margin: 0 auto;
+
+  &-theme-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0;
+
+    calcite-label {
+      --calcite-label-margin-bottom: 0px;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.header {
+  color: var(--calcite-ui-text-1);
+  background-color: var(--calcite-ui-foreground-1);
+
+  &-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 18px;
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    align-items: center;
+  }
+
+  &-title {
+    h1 {
+      margin: 24px 0;
+      font-size: 1.25rem;
+      word-wrap: break-word;
+    }
+  }
+
+  &-actions-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-actions {
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  &-avatar {
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    border: 0;
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+
+    calcite-avatar {
+      --calcite-ui-text-3: #000;
+    }
+  }
+
+  &-avatar:hover,
+  &-avatar:active,
+  calcite-dropdown[open] {
+    calcite-avatar {
+      filter: brightness(0.8);
+    }
+  }
+}
