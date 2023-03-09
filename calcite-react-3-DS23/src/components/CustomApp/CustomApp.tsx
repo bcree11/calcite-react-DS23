@@ -25,6 +25,7 @@ import {
 import View from "../View/View";
 
 import "./CustomApp.scss";
+
 import { intro } from "../../assets/settings";
 
 type PanelState = "intro" | "legend" | "search";

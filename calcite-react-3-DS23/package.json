@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run copy && vite",
-    "build": "npm run copy && tsc && vite build",
-    "preview": "npm run copy && vite preview",
+    "dev": "yarn run copy && vite",
+    "build": "yarn run copy && tsc && vite build",
+    "preview": "yarn run copy && vite preview",
     "copy": "mkdir -p public/assets && cp -r node_modules/@esri/calcite-components/dist/calcite/assets/* ./public/assets/"
   },
   "dependencies": {
