@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@arcgis/core@^4.26.4":
-  version "4.26.4"
-  resolved "https://registry.yarnpkg.com/@arcgis/core/-/core-4.26.4.tgz#e171bf2388eda3d002dbebb60deb9408ae583077"
-  integrity sha512-N+4NVpbIoY3jOwDGwkRgzDoIV4qdsaUaDw9QR+k8Eb6BPyrUAz6DD1H+nzESEIZQ8hm2zSjHyPmyff5x3dU8NQ==
+"@arcgis/core@^4.26.5":
+  version "4.26.5"
+  resolved "https://registry.yarnpkg.com/@arcgis/core/-/core-4.26.5.tgz#45bba56f414b0025de766b1ea60c5bc622341675"
+  integrity sha512-Z8KoJrTD1ZQwVVZAIpkdjAQVT/MjAaWAr5u0krifKd6Y1m0TrEb8/iK86KvyWX8yNNWEroEP9SiE19vH/JKquQ==
   dependencies:
     "@esri/arcgis-html-sanitizer" "~3.0.1"
     "@esri/calcite-colors" "~6.1.0"
@@ -164,7 +164,7 @@
   dependencies:
     "@esri/calcite-components" "^1.0.8"
 
-"@esri/calcite-components@^1.0.8":
+"@esri/calcite-components@^1.0.8", "@esri/calcite-components@~1.0.7":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@esri/calcite-components/-/calcite-components-1.0.8.tgz#430230436561f8ed1cfb59e26efb24cdc1b18000"
   integrity sha512-aeBSZQdtv7CRGbcGZh49RT4Z481muFspnY+98X6RRnf8QHdjpwTk+JbyS1pLAvenyLqTV+Gwa/Q5BPhbsfLiRw==
@@ -178,36 +178,10 @@
     lodash-es "4.17.21"
     sortablejs "1.15.0"
 
-"@esri/calcite-components@~1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@esri/calcite-components/-/calcite-components-1.0.7.tgz#44dc771834526b1514bc6051f82236c28c48d3e8"
-  integrity sha512-Ucw0Ly+hvWl4RDMEcHAv2amMItgMYzCGfJS5M7gnIu9bEXcY2Areo+o0KaqvvdAcIjChsRY9fy05ke3ypw0tuA==
-  dependencies:
-    "@floating-ui/dom" "1.1.0"
-    "@stencil/core" "2.20.0"
-    "@types/color" "3.0.3"
-    color "4.2.3"
-    focus-trap "7.2.0"
-    form-request-submit-polyfill "2.0.0"
-    lodash-es "4.17.21"
-    sortablejs "1.15.0"
-
-"@floating-ui/core@^1.0.5":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.2.1.tgz#074182a1d277f94569c50a6b456e62585d463c8e"
-  integrity sha512-LSqwPZkK3rYfD7GKoIeExXOyYx6Q1O4iqZWwIehDNuv3Dv425FIAE8PRwtAx1imEolFTHgBEcoFHm9MDnYgPCg==
-
 "@floating-ui/core@^1.2.1":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.2.2.tgz#66f62cf1b7de2ed23a09c101808536e68caffaec"
   integrity sha512-FaO9KVLFnxknZaGWGmNtjD2CVFuc0u4yeGEofoyXO2wgRA7fLtkngT6UB0vtWQWuhH3iMTZZ/Y89CMeyGfn8pA==
-
-"@floating-ui/dom@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.1.0.tgz#29fea1344fdef15b6ba270a733d20b7134fee5c2"
-  integrity sha512-TSogMPVxbRe77QCj1dt8NmRiJasPvuc+eT5jnJ6YpLqgOD2zXc5UA3S1qwybN+GVCDNdKfpKy1oj8RpzLJvh6A==
-  dependencies:
-    "@floating-ui/core" "^1.0.5"
 
 "@floating-ui/dom@1.2.1":
   version "1.2.1"

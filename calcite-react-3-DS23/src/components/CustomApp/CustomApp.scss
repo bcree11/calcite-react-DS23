@@ -1,0 +1,45 @@
+.custom-app {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 1px solid var(--calcite-ui-border-1);
+
+  calcite-action-bar {
+    height: 100%;
+  }
+
+  h2 {
+    margin: 1rem;
+  }
+
+  &-panel {
+    background: var(--calcite-ui-foreground-1);
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+
+    h3 {
+      margin: 0 0 1rem;
+    }
+  }
+
+  .esri-search {
+    width: 100%;
+  }
+
+  .esri-legend {
+    background: var(--calcite-ui-foreground-1);
+  }
+
+  calcite-modal {
+    --calcite-modal-scrim-background: transparent;
+  }
+}
+
+.calcite-mode-dark .custom-app .esri-search {
+  border: solid 1px rgba(173, 173, 173, 0.3);
+}
+
+.calcite-mode-light .custom-app .esri-search {
+  border: solid 1px rgba(110, 110, 110, 0.3);
+}

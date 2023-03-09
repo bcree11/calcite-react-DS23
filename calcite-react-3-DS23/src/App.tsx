@@ -14,10 +14,13 @@ export default function App() {
 
   function handleThemeSwitch(e: Event): void {
     const switchEl = e.target as HTMLCalciteSwitchElement;
+    const theme = switchEl.checked ? "dark" : "light";
     if (appDiv.current != null) {
-      appDiv.current.className = switchEl.checked
-        ? "App calcite-mode-dark"
-        : "App calcite-mode-light";
+      appDiv.current.className = `App calcite-mode-${theme}`;
+    }
+    const jsapiStyles = document.getElementById("jsapiStyles") as HTMLLinkElement;
+    if (jsapiStyles != null) {
+      jsapiStyles.href = `https://js.arcgis.com/4.26/esri/themes/${theme}/main.css`;
     }
   }
 

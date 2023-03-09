@@ -8,14 +8,6 @@
   color: var(--calcite-ui-text-1);
 }
 
-.calcite-mode-light {
-  @import url("https://js.arcgis.com/4.26/@arcgis/core/assets/esri/themes/dark/main.css");
-}
-
-.calcite-mode-dark {
-  @import url("https://js.arcgis.com/4.26/@arcgis/core/assets/esri/themes/dark/main.css");
-}
-
 .error-page {
   display: flex;
   justify-content: center;
