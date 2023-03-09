@@ -18,7 +18,7 @@ export default function Maps(): ReactElement {
     <div className="maps">
       <CalciteTabs>
         <CalciteTabNav slot="title-group">
-          <CalciteTabTitle selected>Embedded Apps</CalciteTabTitle>
+          <CalciteTabTitle selected>Embedded App</CalciteTabTitle>
         </CalciteTabNav>
         <CalciteTab>
           <iframe

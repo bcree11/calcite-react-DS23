@@ -18,9 +18,9 @@ export default function App() {
     if (appDiv.current != null) {
       appDiv.current.className = `App calcite-mode-${theme}`;
     }
-    const jsapiStyles = document.getElementById("jsapiStyles") as HTMLLinkElement;
-    if (jsapiStyles != null) {
-      jsapiStyles.href = `https://js.arcgis.com/4.26/esri/themes/${theme}/main.css`;
+    const arcgisStyles = document.getElementById("arcgisStyles") as HTMLLinkElement;
+    if (arcgisStyles != null) {
+      arcgisStyles.href = `https://js.arcgis.com/4.26/esri/themes/${theme}/main.css`;
     }
   }
 

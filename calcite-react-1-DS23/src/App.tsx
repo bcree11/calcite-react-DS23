@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 
+// Import Calcite Button
 // import "@esri/calcite-components/dist/components/calcite-button";
 // import { CalciteButton } from "@esri/calcite-components-react";
 
 import "./App.css";
+
+// import Calcite CSS
 // import "@esri/calcite-components/dist/calcite/calcite.css";
 
 function App() {

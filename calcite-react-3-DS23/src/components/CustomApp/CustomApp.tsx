@@ -74,8 +74,8 @@ export default function CustomApp({ view }: CustomAppProps): ReactElement {
         slot="panel-start"
         position="start"
         resizable
-        detached-height-scale="l"
-        width-scale="m"
+        detachedHeightScale="l"
+        widthScale="m"
       >
         <CalciteActionBar slot="action-bar" layout="vertical">
           <CalciteActionGroup layout="vertical">
