@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 
 // Import Calcite Button
-// import "@esri/calcite-components/dist/components/calcite-button";
-// import { CalciteButton } from "@esri/calcite-components-react";
+import "@esri/calcite-components/dist/components/calcite-button";
+import { CalciteButton } from "@esri/calcite-components-react";
 
 import "./App.css";
 
 // import Calcite CSS
-// import "@esri/calcite-components/dist/calcite/calcite.css";
+import "@esri/calcite-components/dist/calcite/calcite.css";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -31,7 +31,9 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
+        <CalciteButton onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </CalciteButton>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>

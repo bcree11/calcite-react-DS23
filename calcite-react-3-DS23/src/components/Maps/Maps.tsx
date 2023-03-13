@@ -23,6 +23,7 @@ import "./Maps.scss";
 
 export default function Maps(): ReactElement {
   const { webmap, portalUrl } = applicationJSON;
+  //Set Portal URL
   esriConfig.portalUrl = portalUrl;
   const mapView = new MapView({
     map: new WebMap({

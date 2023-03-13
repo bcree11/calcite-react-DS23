@@ -18,21 +18,21 @@ export default function View({ view }: ViewProps) {
   }, [view]);
 
   // Add Calcite Component to View
-  // useEffect(() => {
-  //   if (view) {
-  //     const tileId = "ds-tile";
-  //     let tile = view.ui.find(tileId) as HTMLCalciteTileElement;
-  //     if (!tile) {
-  //       tile = document.createElement("calcite-tile") as HTMLCalciteTileElement;
-  //       tile.id = tileId;
-  //       tile.icon = "3d-glasses";
-  //       tile.heading = "Demo";
-  //       tile.description = "Adding Calcite Component to view";
-  //       tile.tabIndex = 0;
-  //       view.ui.add(tile, "bottom-left");
-  //     }
-  //   }
-  // }, [view]);
+  useEffect(() => {
+    if (view) {
+      const tileId = "ds-tile";
+      let tile = view.ui.find(tileId) as HTMLCalciteTileElement;
+      if (tile == null) {
+        tile = document.createElement("calcite-tile") as HTMLCalciteTileElement;
+        tile.id = tileId;
+        tile.icon = "3d-glasses";
+        tile.heading = "Demo";
+        tile.description = "Adding Calcite Component to view";
+        tile.tabIndex = 0;
+        view.ui.add(tile, "bottom-left");
+      }
+    }
+  }, [view]);
 
   return <div ref={viewRef} className="view-container"></div>;
 }

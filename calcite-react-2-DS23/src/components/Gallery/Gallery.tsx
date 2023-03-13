@@ -86,8 +86,8 @@ export default function Gallery(): ReactElement {
               <CalciteDropdownItem
                 key={item.title}
                 iconStart={item.icon}
-                // selected={view.title === item.title ? true : undefined}
-                selected={view.title === item.title ? true : false}
+                selected={view.title === item.title ? true : undefined}
+                // selected={view.title === item.title ? true : false}
                 onCalciteDropdownItemSelect={() => handleSelection(item)}
               >
                 {item.title}
